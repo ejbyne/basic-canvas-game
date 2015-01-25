@@ -112,7 +112,7 @@ var main = function() {
   render();
   then = now;
   // Request to do this again ASAP
-  requestAnimatinoFrame(main);
+  requestAnimationFrame(main);
 
 // Let's play this game!
 var then = Date.now();
